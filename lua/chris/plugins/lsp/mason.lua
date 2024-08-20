@@ -41,6 +41,7 @@ return {
 				"docker_compose_language_service",
 				"gopls",
 				"jsonls",
+				"elixirls",
 			},
 		})
 
@@ -54,6 +55,7 @@ return {
 				"eslint_d",
 				"goimports",
 				"golines",
+				"nextls",
 			},
 		})
 	end,

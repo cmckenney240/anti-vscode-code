@@ -30,3 +30,6 @@ keymap.set("i", "<Tab><Tab>", "<ESC>la", {
 -- keep screen centered
 keymap.set("n", "k", "kzz", { desc = "Keep screen centerd on up movements" })
 keymap.set("n", "j", "jzz", { desc = "Keep screen centerd on down movements" })
+
+-- text replacement
+keymap.set("n", "<leader>ra", ":%s/", { desc = "Start the process for replace all in file" })
