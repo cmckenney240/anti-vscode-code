@@ -21,7 +21,6 @@ return {
 				lua = { "stylua" },
 				python = { "isort", "black" },
 				go = { "goimports", "gofmt" },
-				elixir = { "nextls" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
