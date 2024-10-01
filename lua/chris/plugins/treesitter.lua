@@ -44,7 +44,11 @@ return {
 				"vimdoc",
 				"c",
 				"go",
+				"python",
+				"elixir",
+				"heex",
 			},
+			auto_install = true,
 			incremental_selection = {
 				enable = true,
 				keymaps = {
