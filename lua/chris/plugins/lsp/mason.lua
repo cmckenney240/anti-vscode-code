@@ -50,7 +50,7 @@ return {
 				"stylua", -- lua formatter
 				"isort", -- python formatter
 				"black", -- python formatter
-				"pylint",
+				"flake8",
 				"eslint_d",
 				"goimports",
 				"golines",

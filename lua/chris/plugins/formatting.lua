@@ -27,6 +27,18 @@ return {
 				async = false,
 				timeout_ms = 1000,
 			},
+			formatters = {
+				black = {
+					command = "black",
+					args = { "--line-length", "79", "-" },
+					stdin = true,
+				},
+				isort = {
+					command = "isort",
+					args = { "--profile", "black", "--line-length", "79", "-" },
+					stdin = true,
+				},
+			},
 		})
 
 		vim.keymap.set({ "n", "v" }, "<leader>mp", function()
