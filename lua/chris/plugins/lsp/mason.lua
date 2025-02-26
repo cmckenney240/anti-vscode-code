@@ -41,6 +41,7 @@ return {
 				"jsonls",
 				"elixirls",
 				"tailwindcss",
+				"rust_analyzer",
 			},
 		})
 
@@ -54,6 +55,7 @@ return {
 				"eslint_d",
 				"goimports",
 				"golines",
+				"rustfmt",
 			},
 		})
 	end,
