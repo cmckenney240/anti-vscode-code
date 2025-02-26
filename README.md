@@ -9,5 +9,6 @@ After installing neovim
     - `mkdir core`
     - `mkdir plugins`
 
+Install LazyGit https://github.com/jesseduffield/lazygit?tab=readme-ov-file#ubuntu
 
 Copy files from this repo
